@@ -1,19 +1,19 @@
-package SolveAnyAquareOrHollowPattern;
+package SolveAnySquareOrHollowPattern;
 
 import java.util.Scanner;
 
-public class HollowSquarePattern {
+public class HollowDecreasingTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter number: ");
         int n = scanner.nextInt();
 
-        // Top Row & Col = 1
-        // Last Row & Col = n
+        // Top Row: i = n
+        // First and Last star of each row
         for (int rows = 1; rows <= n; rows++) {
-            for (int cols = 1; cols <= n; cols++) {
-                if (rows == 1 || cols == 1 || rows == n || cols == n) {
+            for (int cols = rows; cols <= n; cols++) {
+                if (rows == 1 || cols == rows || cols == n) {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");

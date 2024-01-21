@@ -1,4 +1,4 @@
-package SolveAnyAquareOrHollowPattern;
+package SolveAnySquareOrHollowPattern;
 
 import java.util.Scanner;
 
