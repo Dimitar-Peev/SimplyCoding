@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d2df4dc-1471-4144-8630-7cfb5c613774" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/DiamondPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/HollowDecreasingTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/HollowDiamondPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/HollowHillPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringPrograms/Simply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveAnyAquareOrHollowPattern/CrossPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/CrossPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveAnyAquareOrHollowPattern/HollowIncreasingTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/HollowIncreasingTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveAnyAquareOrHollowPattern/HollowSquarePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/HollowSquarePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveAnyAquareOrHollowPattern/SquareParallelBarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/SquareParallelBarPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveAnyAquareOrHollowPattern/SquarePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/SquarePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolveAnyAquareOrHollowPattern/SquarePlusPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/SquarePlusPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -69,9 +61,9 @@
       <recent name="SolveAnyAquareOrHollowPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquarePlusPattern">
-    <configuration name="HollowIncreasingTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SolveAnySquareOrHollowPattern.HollowIncreasingTriangle" />
+  <component name="RunManager" selected="Application.Simply">
+    <configuration name="HollowSquarePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SolveAnySquareOrHollowPattern.HollowSquarePattern" />
       <module name="SimplyCoding" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HollowSquarePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SolveAnySquareOrHollowPattern.HollowSquarePattern" />
+    <configuration name="Simply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPrograms.Simply" />
       <module name="SimplyCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SolveAnySquareOrHollowPattern.*" />
+          <option name="PATTERN" value="StringPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Simply" />
         <item itemvalue="Application.SquarePlusPattern" />
         <item itemvalue="Application.SquarePattern" />
         <item itemvalue="Application.SquareParallelBarPattern" />
         <item itemvalue="Application.HollowSquarePattern" />
-        <item itemvalue="Application.HollowIncreasingTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +147,7 @@
       <updated>1705607443197</updated>
       <workItem from="1705607443786" duration="1528000" />
       <workItem from="1705836972772" duration="862000" />
-      <workItem from="1705858924463" duration="2872000" />
+      <workItem from="1705858924463" duration="4865000" />
     </task>
     <task id="LOCAL-00001" summary="SquarePattern">
       <option name="closed" value="true" />
@@ -213,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705837595304</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates">
+      <option name="closed" value="true" />
+      <created>1705862102673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705862102675</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,16 +239,5 @@
     <MESSAGE value="HollowIncreasingTriangle" />
     <MESSAGE value="updates" />
     <option name="LAST_COMMIT_MESSAGE" value="updates" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SolveAnySquareOrHollowPattern/HollowDiamondPattern.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
