@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d2df4dc-1471-4144-8630-7cfb5c613774" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/src/StringPrograms/Simply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +147,9 @@
       <workItem from="1705607443786" duration="1528000" />
       <workItem from="1705836972772" duration="862000" />
       <workItem from="1705858924463" duration="4865000" />
+      <workItem from="1705937670880" duration="521000" />
+      <workItem from="1705985762018" duration="235000" />
+      <workItem from="1706021590892" duration="393000" />
     </task>
     <task id="LOCAL-00001" summary="SquarePattern">
       <option name="closed" value="true" />
@@ -213,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705862102675</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updates">
+      <option name="closed" value="true" />
+      <created>1705937908548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705937908548</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
